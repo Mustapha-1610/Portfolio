@@ -4,7 +4,6 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   try {
-    console.log("anything");
     await connect();
     const projects = await projectModel.find();
     if (projects.length == 0) {

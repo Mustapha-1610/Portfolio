@@ -1,0 +1,28 @@
+{
+  "Index": {
+    "downloadCv": "Lebenslauf herunterladen",
+    "about": "Über",
+    "projects": "Projekte",
+    "introduction": {
+      "hello": "Hallo! Mein Name ist ",
+      "im": "und ich bin ein Full-Stack-Webentwickler",
+      "based": "mit Sitz in Tunesien."
+    },
+    "aboutmeParagraph": {
+      "first": "Hallo! Ich bin Mustapha Taibi, ein 21-jähriger Informatikstudent mit einer Leidenschaft für Webentwicklung und neue Technologien. Ich bin spezialisiert auf Full-Stack-Entwicklung und beherrsche verschiedene JavaScript-Frameworks wie Next.js, Node.js, React.js und Angular.js. Ich bin außerdem proficient in TypeScript und habe Erfahrung in der Erstellung von Websites, die eine Echtzeit-Datensynchronisation erfordern, unter Verwendung von Technologien wie Socket.IO und Node Schedule.",
+      "second": "Mit einem gymnasialen Hintergrund in Management und Wirtschaft strebe ich danach, mein betriebswirtschaftliches Wissen mit meinem technischen Know-how zu verbinden, um Projekte effektiv zu managen. Ich führe Marktforschung durch, um Produktprobleme oder Verbesserungspotenziale zu identifizieren und schlage Lösungen zur Bewältigung dieser Herausforderungen vor.",
+      "third": "Ich bin immer bestrebt, mein Wissen und meine Fähigkeiten zu erweitern. Derzeit baue ich mein Wissen im Bereich der mobilen Entwicklung aus und erweitere meine Projekte um KI-Integration.",
+      "forth": "Ich hoffe, Ihnen gefallen meine Projekte. Wenn Sie mich einstellen möchten oder weitere Informationen wünschen, können Sie mich gerne über LinkedIn oder GitHub über die untenstehenden Links kontaktieren!"
+    },
+    "github": "Github",
+    "aboutme": "Über mich",
+    "projectDescription": {
+      "Tuni-Auctions": "Eine Online-Auktionsplattform, die sich der Erkundung des lokalen Marktes widmet, seine Probleme identifiziert und neue und innovative Lösungen einführt, um den Markt wiederzubeleben und das Bieterlebnis angenehmer zu gestalten.",
+      "Dar Seranity": "Tunesische Online-Vermietungsplattform, die das gesamte Spektrum der Mietfunktionen verwaltet, z. B. die Bearbeitung von Wohnungsangeboten und Anfragen für Wohnungsbesichtigungen, die monatliche Mietzahlung und -verfolgung sowie den Auszug von Mietern.",
+      "Tuni-Work": "Tunesische Online-Freelancer-Plattform, die sich um Stellenanzeigen, Browsing und Bewerbungen von Freiberuflern, Projektübernahme, Aufgabenverfolgung innerhalb von Projekten, sichere Zahlungen und ein Berichtssystem zur Streitbeilegung mit Arbeitgebern kümmert."
+    },
+    "website": "Website",
+    "technologies": "Technologien",
+    "sayHello": "Sag Hallo!"
+  }
+}
