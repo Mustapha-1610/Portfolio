@@ -1,4 +1,4 @@
-import MyComponent from "./components/navbar";
+import MyComponent from "./components/d";
 
 export default async function HomePage() {
   const res = await fetch(`http://localhost:3000/api/fetch`, {
