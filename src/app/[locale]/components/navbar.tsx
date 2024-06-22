@@ -18,12 +18,6 @@ export default function Navbar() {
         </a>
         <div className="flex gap-3 justify-between items-start pl-3">
           <div className="text-lg tracking-wide leading-7 text-black">
-            {t("about")}
-          </div>
-          <div className="text-lg tracking-wide leading-7 text-black">
-            {t("projects")}
-          </div>
-          <div className="text-lg tracking-wide leading-7 text-black">
             <LanguageChanger />
           </div>
           <div className="flex flex-col justify-center">
