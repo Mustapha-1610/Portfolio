@@ -1,28 +1,23 @@
 {
   "Index": {
-    "downloadCv": "Télécharger CV",
+    "downloadCv": "Télécharger le CV",
     "about": "À propos",
     "projects": "Projets",
     "introduction": {
-      "hello": "Bonjour! Je m'appelle ",
-      "im": "et je suis un développeur web full stack",
-      "based": "basé en Tunisie."
+      "hello": "Bonjour ! Je m'appelle ",
+      "im": "Je suis un ingénieur logiciel basé en Tunisie."
     },
-    "aboutmeParagraph": {
-      "first": "Salut! Je suis Mustapha Taibi, un étudiant en informatique de 21 ans passionné par le développement web et les nouvelles technologies. Je me spécialise dans le développement full-stack et maîtrise divers frameworks JavaScript tels que Next.js, Node.js, React.js et Angular.js. Je suis également compétent en TypeScript et j'ai une solide expérience dans la création de sites Web nécessitant une synchronisation des données en temps réel, en utilisant des technologies comme Socket.IO et Node Schedule.",
-      "second": "Avec une formation secondaire en gestion et économie, je m'efforce de combiner mes connaissances en commerce avec mon expertise technique pour gérer efficacement les projets. Je mène des études de marché pour identifier les problèmes de produits ou les domaines à améliorer et je propose des solutions pour relever ces défis.",
-      "third": "Je suis toujours désireux d'améliorer mes connaissances et mes compétences. Actuellement, je développe mon expertise dans le développement mobile et j'explore l'intégration de l'IA dans mes projets.",
-      "forth": "J'espère que vous apprécierez de découvrir mes projets. Si vous êtes intéressé à m'embaucher ou si vous souhaitez plus de détails, n'hésitez pas à me contacter via LinkedIn ou GitHub en utilisant les liens ci-dessous !"
-    },
+    "aboutmeDesc": "Bonjour ! Je suis Mustapha Taibi, un diplômé en informatique de 22 ans passionné par le développement web et l'exploration de nouvelles technologies. J'ai de l'expérience avec des outils modernes comme Next.js, React, Node.js, Express et MongoDB, et j'apprends actuellement à intégrer l'IA dans les applications web pour créer des produits innovants et impactants. J'aime construire des applications full-stack et suis toujours impatient d'élargir mes connaissances et de relever de nouveaux défis.",
     "github": "Github",
     "aboutme": "À propos de moi",
     "projectDescription": {
-      "Tuni-Auctions": "Une plateforme de vente aux enchères en ligne construite autour de l'exploration du marché local, identifiant ses problèmes et introduisant des solutions nouvelles et innovantes pour aider à relancer le marché et rendre l'expérience d'enchères beaucoup plus agréable.",
-      "Dar Seranity": "Plateforme de location en ligne tunisienne, elle gère tout le spectre des fonctionnalités de location comme la gestion des annonces de maisons et les demandes de visites à domicile, le paiement et le suivi des loyers mensuels, et le déménagement des locataires.",
-      "Tuni-Work": "Plateforme de freelance en ligne tunisienne, elle s'occupe des offres d'emploi, de la navigation et des candidatures des freelances, de l'acceptation des projets, du suivi des tâches au sein des projets, des paiements sécurisés et d'un système de rapport pour la résolution des litiges avec les employeurs."
+      "Fluent Tales": "Assistant d'apprentissage de l'allemand alimenté par l'IA. Il propose une section de compréhension avec des textes et exercices générés sur mesure, une section de vocabulaire avec des noms, verbes et phrases utiles générés par thème, une section de pratique grammaticale et un assistant d'écriture qui fournit des commentaires en fonction de votre niveau de compétence.",
+      "Tuni-Auctions": "Une plateforme d'enchères conçue pour explorer le marché local, identifier ses problèmes et introduire des solutions innovantes pour relancer le marché et rendre l'expérience des enchères plus agréable.",
+      "Dar Seranity": "Plateforme de location qui gère l'ensemble des fonctionnalités liées à la location, comme la gestion des annonces immobilières, les demandes de visites, le paiement et le suivi des loyers mensuels, ainsi que le départ des locataires.",
+      "Tuni-Work": "Plateforme freelance qui s'occupe des offres d'emploi, de la recherche de freelances et des candidatures, de l'acceptation de projets, du suivi des tâches, des paiements sécurisés et d'un système de signalement pour résoudre les litiges avec les employeurs."
     },
     "website": "Site web",
     "technologies": "Technologies",
-    "sayHello": "Dites bonjour !"
+    "sayHello": "Dites Bonjour !"
   }
 }

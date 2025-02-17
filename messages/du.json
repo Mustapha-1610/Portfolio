@@ -1,27 +1,22 @@
 {
   "Index": {
     "downloadCv": "Lebenslauf herunterladen",
-    "about": "Über",
+    "about": "Über mich",
     "projects": "Projekte",
     "introduction": {
       "hello": "Hallo! Mein Name ist ",
-      "im": "und ich bin ein Full-Stack-Webentwickler",
-      "based": "mit Sitz in Tunesien."
+      "im": "Ich bin ein Softwareentwickler aus Tunesien."
     },
-    "aboutmeParagraph": {
-      "first": "Hallo! Ich bin Mustapha Taibi, ein 21-jähriger Informatikstudent mit einer Leidenschaft für Webentwicklung und neue Technologien. Ich bin spezialisiert auf Full-Stack-Entwicklung und beherrsche verschiedene JavaScript-Frameworks wie Next.js, Node.js, React.js und Angular.js. Ich bin außerdem proficient in TypeScript und habe Erfahrung in der Erstellung von Websites, die eine Echtzeit-Datensynchronisation erfordern, unter Verwendung von Technologien wie Socket.IO und Node Schedule.",
-      "second": "Mit einem gymnasialen Hintergrund in Management und Wirtschaft strebe ich danach, mein betriebswirtschaftliches Wissen mit meinem technischen Know-how zu verbinden, um Projekte effektiv zu managen. Ich führe Marktforschung durch, um Produktprobleme oder Verbesserungspotenziale zu identifizieren und schlage Lösungen zur Bewältigung dieser Herausforderungen vor.",
-      "third": "Ich bin immer bestrebt, mein Wissen und meine Fähigkeiten zu erweitern. Derzeit baue ich mein Wissen im Bereich der mobilen Entwicklung aus und erweitere meine Projekte um KI-Integration.",
-      "forth": "Ich hoffe, Ihnen gefallen meine Projekte. Wenn Sie mich einstellen möchten oder weitere Informationen wünschen, können Sie mich gerne über LinkedIn oder GitHub über die untenstehenden Links kontaktieren!"
-    },
+    "aboutmeDesc": "Hallo! Ich bin Mustapha Taibi, ein 22-jähriger Informatik-Absolvent, der sich für Webentwicklung und die Erkundung neuer Technologien begeistert. Ich habe Erfahrung mit modernen Tools wie Next.js, React, Node.js, Express und MongoDB und lerne derzeit, wie man KI in Webanwendungen integriert, um innovative und wirkungsvolle Produkte zu schaffen. Ich liebe es, Full-Stack-Anwendungen zu entwickeln und bin immer bereit, mein Wissen zu erweitern und neue Herausforderungen anzunehmen.",
     "github": "Github",
     "aboutme": "Über mich",
     "projectDescription": {
-      "Tuni-Auctions": "Eine Online-Auktionsplattform, die sich der Erkundung des lokalen Marktes widmet, seine Probleme identifiziert und neue und innovative Lösungen einführt, um den Markt wiederzubeleben und das Bieterlebnis angenehmer zu gestalten.",
-      "Dar Seranity": "Tunesische Online-Vermietungsplattform, die das gesamte Spektrum der Mietfunktionen verwaltet, z. B. die Bearbeitung von Wohnungsangeboten und Anfragen für Wohnungsbesichtigungen, die monatliche Mietzahlung und -verfolgung sowie den Auszug von Mietern.",
-      "Tuni-Work": "Tunesische Online-Freelancer-Plattform, die sich um Stellenanzeigen, Browsing und Bewerbungen von Freiberuflern, Projektübernahme, Aufgabenverfolgung innerhalb von Projekten, sichere Zahlungen und ein Berichtssystem zur Streitbeilegung mit Arbeitgebern kümmert."
+      "Fluent Tales": "Ein KI-gestützter Assistent zum Deutschlernen. Es bietet einen Bereich zum Leseverständnis mit individuell generierten Texten und Übungen, einen Vokabelbereich mit themenbasierten Nomen, Verben und nützlichen Phrasen, einen Grammatikübungsbereich und einen Schreibassistenten, der Feedback basierend auf Ihrem Sprachniveau gibt.",
+      "Tuni-Auctions": "Eine Auktionsplattform, die darauf abzielt, den lokalen Markt zu erkunden, seine Probleme zu identifizieren und innovative Lösungen einzuführen, um den Markt zu beleben und das Auktionserlebnis angenehmer zu gestalten.",
+      "Dar Seranity": "Eine Vermietungsplattform, die das gesamte Spektrum der Mietfunktionen verwaltet, wie die Verwaltung von Immobilienangeboten, Anfragen für Besichtigungen, monatliche Mietzahlungen und -verfolgung sowie den Auszug von Mietern.",
+      "Tuni-Work": "Eine Freelance-Plattform, die sich um Stellenangebote, die Suche nach Freelancern und Bewerbungen, die Annahme von Projekten, die Aufgabenverfolgung innerhalb von Projekten, sichere Zahlungen und ein Meldesystem zur Beilegung von Streitigkeiten mit Arbeitgebern kümmert."
     },
-    "website": "Website",
+    "website": "Webseite",
     "technologies": "Technologien",
     "sayHello": "Sag Hallo!"
   }

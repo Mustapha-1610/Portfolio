@@ -17,11 +17,6 @@ const locales = [
     name: "Français",
     flag: "https://static-00.iconduck.com/assets.00/flag-france-emoji-2048x1279-3lsn6si4.png",
   },
-  {
-    code: "ar",
-    name: "العربية",
-    flag: "https://cdn.britannica.com/79/5779-050-46C999AF/Flag-Saudi-Arabia.jpg",
-  },
 ];
 
 interface Props {

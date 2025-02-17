@@ -1,83 +1,95 @@
-import { IProject } from "@/app/projectModel";
-import { useTranslations } from "next-intl";
+"use client";
 import { FaGithub, FaYoutube } from "react-icons/fa";
 import { CiGlobe } from "react-icons/ci";
+import { useTranslations } from "next-intl";
+import { motion } from "framer-motion";
 
-type ProjectCardProps = {
-  project: IProject;
-};
+interface ProjectCardProps {
+  project: any;
+  isDarkMode: boolean;
+  isLeft: boolean;
+}
 
-export default function ProjectCard({ project }: ProjectCardProps) {
+export default function ProjectCard({
+  project,
+  isDarkMode,
+  isLeft,
+}: ProjectCardProps) {
   const t = useTranslations("Index");
 
   return (
-    <div className="flex flex-col items-center p-3 w-[460px] h-[630px] text-black bg-white rounded-xl shadow-xl hover:scale-105 transition-transform max-md:w-full">
-      <div className="w-full h-[340px] overflow-hidden">
-        <img
-          loading="lazy"
-          src={project.coverPicture}
-          alt={`${project.title} project screenshot`}
-          className="w-full h-full object-cover"
-        />
-      </div>
-      <div className="flex flex-col items-center p-2 mt-1 flex-grow">
-        <div className="text-2xl font-extrabold text-center text-black">
+    <motion.div
+      initial={{ opacity: 0, x: isLeft ? -50 : 50 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className={`relative flex flex-col max-w-[500px] p-6 rounded-lg shadow-lg border-2 border-orange-600 ${
+        isLeft ? "md:mr-12" : "md:ml-12"
+      }`}
+    >
+      {/* Connector Line */}
+      <div
+        className={`max-md:hidden absolute top-1/2 w-8 h-[2px] bg-black ${
+          !isLeft ? "right-full mr-2" : "left-full ml-2"
+        }`}
+      ></div>
+
+      {/* Card Content */}
+      <div className="flex-1">
+        <h3 className="text-2xl font-bold max-md:text-xl text-center">
           {project.title}
+        </h3>
+
+        {/* Technologies Used */}
+        <div className="flex flex-wrap justify-center gap-2 mt-4">
+          {project.tags.map((tag: string, index: number) => (
+            <div
+              key={index}
+              className="px-3 py-1 text-xs  bg-gray-100 rounded-full"
+            >
+              {tag}
+            </div>
+          ))}
         </div>
-        <div className="text-base text-center mt-2">
-          {" "}
+
+        <p className="mt-4 text-lg max-md:text-sm">
           {t(`projectDescription.${project.title}`)}
-        </div>
-        <div className="text-sm text-gray-600 mt-2">{t("technologies")}:</div>
-        <div className="flex flex-wrap gap-2 justify-center items-start pt-2 pb-1.5 text-xs whitespace-nowrap max-md:max-w-full">
-          {project.tags &&
-            project.tags.map((tag, index) => <div key={index}>{tag}</div>)}
-        </div>
-        <div className="flex gap-2 mt-4">
-          <a
-            href={project.links?.website || "#"}
-            className={`flex items-center px-3 py-1 rounded-full ${
-              project.links?.website
-                ? "bg-blue-600 text-white"
-                : "bg-gray-400 text-gray-700 cursor-not-allowed"
-            }`}
-            target={project.links?.website ? "_blank" : ""}
-            rel="noopener noreferrer"
-            onClick={(e) => !project.links?.website && e.preventDefault()}
-          >
-            <CiGlobe size={20} className="mr-2" color="white" />
-            {t("website")}
-          </a>
-          <a
-            href={project.links?.github || "#"}
-            className={`flex items-center px-3 py-1 rounded-full ${
-              project.links?.github
-                ? "bg-black text-white"
-                : "bg-gray-400 text-gray-700 cursor-not-allowed"
-            }`}
-            target={project.links?.github ? "_blank" : ""}
-            rel="noopener noreferrer"
-            onClick={(e) => !project.links?.github && e.preventDefault()}
-          >
-            <FaGithub size={20} className="mr-2" />
-            GitHub
-          </a>
-          <a
-            href={project.links?.youtube || "#"}
-            className={`flex items-center px-3 py-1 rounded-full ${
-              project.links?.youtube
-                ? "bg-red-600 text-white"
-                : "bg-gray-400 text-gray-700 cursor-not-allowed"
-            }`}
-            target={project.links?.youtube ? "_blank" : ""}
-            rel="noopener noreferrer"
-            onClick={(e) => !project.links?.youtube && e.preventDefault()}
-          >
-            <FaYoutube size={20} className="mr-2" />
-            YouTube
-          </a>
+        </p>
+
+        {/* Project Links */}
+        <div className="mt-4 flex justify-center gap-4">
+          {project.links?.website && (
+            <a
+              href={project.links.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-orange-600 transition duration-300"
+            >
+              <CiGlobe size={24} />
+            </a>
+          )}
+          {project.links?.github && (
+            <a
+              href={project.links.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-orange-600 transition duration-300"
+            >
+              <FaGithub size={24} />
+            </a>
+          )}
+          {project.links?.youtube && (
+            <a
+              href={project.links.youtube}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-orange-600 transition duration-300"
+            >
+              <FaYoutube size={24} />
+            </a>
+          )}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
